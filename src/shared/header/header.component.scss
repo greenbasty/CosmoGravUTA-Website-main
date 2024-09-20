@@ -1,0 +1,25 @@
+.header {
+    // background-color: rgba(27,27,27,1);
+    background-color: #17286b;
+    height: 3rem;
+    color: white;
+    align-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+
+    z-index: 2;
+}
+
+.font {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.link-text {
+    cursor: pointer;
+}

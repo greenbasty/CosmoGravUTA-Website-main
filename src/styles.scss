@@ -1,0 +1,93 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.font {
+    font-family: 'Playfair Display', serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+
+
+// ESTILOS PROPIOS
+
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 65px;
+    line-height: 1;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .border {
+        border: 8px solid red!important;
+
+    }
+}
+
+
+.header {
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+}
+
+.border {
+    border: 8px solid white!important;
+}
+
+.border-sm {
+    border: 5px solid white!important;
+}
+
+.content {
+    background-color: #1a296d;
+    color: white;
+}
+
+.content2 {
+    background-color: #e1dfdb;
+    color: black;
+}
+
+.content2Secondary {
+    background-color: #e1dfdb;
+}
+
+.contentSecondary {
+    background-color: #33364e;
+}
+
+.containerTitulo {
+    background-image: url('./assets/img/presencias\ tutelares.jpg');
+
+    color: white!important;
+
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 55% right 0%;
+    width: auto;
+
+}
+
+.pointer:hover {
+    cursor: pointer
+}
+
+
+.contentForm {
+    background-color: #33364e;
+    color: white;
+}

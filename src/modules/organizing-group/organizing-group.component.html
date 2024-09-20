@@ -1,0 +1,148 @@
+<div>
+  <!-- TITULO -->
+  <section class="text-gray-600 body-font containerTitulo">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <div class="title">
+            <div class="border p-4" style="text-align: center;">
+                <b>Organizing Committee</b>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HEADER -->
+  <section class="text-gray-400 bg-gray-900 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap -m-4">
+
+          <div class="flex flex-col text-center w-full mb-20">
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="font-size: 18px;">
+              The Cosmology and Gravitation Group, COSMOGRAV-UTA, is primarily dedicated to the study of the origin and evolution of the universe as a whole, utilizing as pillars theories of gravitation and quantum field physics. Additionally, natural phenomena originating from the dynamics of gravitational fields are studied within the context of Einstein's General Theory of Relativity and its various extensions. Some of the topics of interest for the group include:
+            </p>
+            <span class="border-sm p-4 font mt-3 mb-4" style="font-size: 25px; margin: auto;">Inflation | Reheating | Dark Matter and Dark Energy | Cosmological Perturbations | Structure Formation | Gravitational Waves</span>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="font-size: 18px;">
+              The group's research aims to deepen our understanding of the fundamental principles governing the universe and contribute to the broader field of cosmology and gravitational physics.
+            </p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+<!-- AQUI VA LA IMAGEN EN MALA CALIDAD -->
+
+  <!-- PROFESORES -->
+  <section class="text-gray-400 bg-gray-900 body-font ">
+    <div class="container px-5 mx-auto">
+      <div class="flex flex-wrap -m-4" style="display: flex; align-content: center; justify-content: center;">
+        <div class="p-4 lg:w-1/4" *ngFor="let item of profesores">
+          <div class="h-100 bg-gray-800 bg-opacity-90 px-2 py-20  rounded-lg overflow-hidden text-center relative" style="display: grid; align-content: center;">
+
+            <!-- NOMBRE -->
+            <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">{{item.Nombre}}</h1>
+            <!-- CORREO -->
+            <!-- <p class="leading-relaxed mb-3">{{item.Correo}}</p> -->
+            <!-- UNIVERSIDAD -->
+            <p class="leading-relaxed mb-3">{{item.Universidad}}</p>
+            <!-- RESEARCH -->
+            <!-- <p class="leading-relaxed mb-3"><b>Research Area:</b> {{item.Research}}</p> -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- IMAGEN CULIA  -->
+    <section class="text-gray-400 bg-gray-900 body-font ">
+      <div class="container px-5 py-24 mx-auto h-100" style="display:flex; justify-content: center;">
+        <!-- <img src="" alt=""> -->
+  
+        <img src="../../assets/img/ALUMNOS MAGISTER 2024-2023 5.jpg" alt="team" style="">
+  
+      </div>
+    </section>
+
+
+  <!-- TITULO ESTUDIANTES -->
+
+  <section class="text-gray-600 body-font content h-40 justify-center ">
+    <div class="flex flex-col text-center w-full">
+      <h1 class="text-2xl font-medium title-font mb-4 text-white tracking-widest title2 mt-5">Collaborators</h1>
+
+    </div>
+  </section>
+
+
+
+  <!-- ESTUDIANTES -->
+  <section class="text-gray-400 bg-gray-900 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap -m-4 ">
+          
+          <section class="text-gray-400 body-font containerOrganizadores">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-wrap -m-4" style="display: flex; align-content: center; justify-content: center;">
+                <div class="p-4 lg:w-1/3" *ngFor="let item of estudiantes">
+                  <div class="h-100 bg-gray-800 bg-opacity-90 px-2 py-20  rounded-lg overflow-hidden text-center relative" style="display: grid; align-content: center;">
+      
+                    <!-- NOMBRE -->
+                    <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">{{item.Nombre}}</h1>
+                    <!-- PUESTO -->
+                    <p class="leading-relaxed mb-3">{{item.Puesto}}</p>
+                    <!-- AREA INTERES -->
+                    <p class="leading-relaxed mb-3"><b>Area of Interest: </b>{{item.AreaInteres}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+  </section>
+
+  <!-- TITULO SECRETARIAS -->
+
+  <section class="text-gray-600 body-font content h-40 justify-center ">
+    <div class="flex flex-col text-center w-full">
+      <h1 class="text-2xl font-medium title-font mb-4 text-white tracking-widest title2 mt-5">Secretary Team</h1>
+
+    </div>
+  </section>
+
+
+
+  <!-- SECRETARIAS -->
+
+
+  <section class="text-gray-400 bg-gray-900 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4 " style="justify-content: center">
+        
+        <section class="text-gray-400 body-font containerOrganizadores">
+          <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4" style="display: flex; align-content: center; justify-content: center;">
+              <div class="p-4 lg:w-1/2 " *ngFor="let item of secretarias">
+                <div class="h-100 bg-gray-800 bg-opacity-90 px-20 py-20  rounded-lg overflow-hidden text-center relative" style="display: grid; align-content: center;">
+    
+                  <!-- NOMBRE -->
+                  <h1 class="title-font sm:text-2xl text-xl font-medium text-white mb-3">{{item.Nombre}}</h1>
+                  <!-- PUESTO -->
+                  <p class="leading-relaxed mb-3">{{item.Categoria}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+</section>
+
+
+      
+
+
+
+</div>

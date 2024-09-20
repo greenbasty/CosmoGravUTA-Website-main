@@ -1,0 +1,32 @@
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 55px;
+    line-height: 1;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.title2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    line-height: 1;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.content {
+    background-color: #33364e;
+    color: white;
+}
+
+
+.img {
+    background-image: url('../../assets/img/ALUMNOS\ MAGISTER\ 2024-2023\ 5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: bottom 55% right 0%;*/
+    width: auto;
+}

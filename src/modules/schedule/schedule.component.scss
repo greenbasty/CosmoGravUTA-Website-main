@@ -1,0 +1,54 @@
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .border {
+        border: 8px solid red!important;
+
+    }
+}
+
+
+.header {
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+}
+
+.border {
+    border: 8px solid white!important;
+}
+
+.content {
+    background-color: #33364e;
+    color: white;
+}
+
+.contentSecondary2 {
+    background-color: #e1dfdb;
+    color: white;
+}
+
+.content2 {
+    background-color: #e1dfdb;
+    color: black;
+}
+
+.content2Secondary {
+    background-color: #e1dfdb;
+}
+
+.contentSecondary {
+    background-color: #33364e;
+}
+
+
+
+

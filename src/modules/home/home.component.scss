@@ -1,0 +1,75 @@
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+
+.header {
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+}
+
+.border {
+    border: 8px solid white!important;
+}
+
+.border-sm {
+    border: 5px solid white!important;
+}
+
+.content {
+    background-color: #1a296d!important;
+    color: white;
+}
+
+.content2 {
+    background-color: #e1dfdb;
+    color: black;
+}
+
+.content2Secondary {
+    background-color: #e1dfdb;
+}
+
+.contentSecondary {
+    background-color: #1a296d;
+
+}
+
+
+.containerTitulo {
+    width: 100%;
+    color: white;
+}
+
+.containerExpositores {
+    background-image: url('../../assets/img/pilarescreacion.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 20% right 0%;
+    width: auto;
+}
+
+.containerOrganizadores {
+    background-image: url('../../assets/img/UTA-DEP-FISICA.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom 20% right 0%;
+    width: 100%;
+}
+
+.containerCientific {
+    background-image: url('../../assets/img/atacama.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;          /* Hace que la imagen cubra completamente el elemento */
+    background-position: center;     /* Centra la imagen de fondo */
+    width: 100%;                     /* Ajusta el ancho del elemento */
+}
